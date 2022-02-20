@@ -1,0 +1,17 @@
+
+config amlogic 'config'
+	option enable '1'
+	option amlogic_firmware_repo 'cocokfeng/n1-rom'
+	option amlogic_firmware_suffix '.img.gz'
+	option amlogic_kernel_path 'n1/kernel'
+	option amlogic_kernel_branch '5.4'
+	option amlogic_shared_fstype 'ext4'
+	option amlogic_write_bootloader '1'
+	option amlogic_firmware_tag 'n1_zy3'
+	option amlogic_firmware_config '0'
+
+config settings 'armcpu'
+	option governor0 'schedutil'
+	option minfreq0 '100000'
+	option maxfreq0 '1512000'
+
