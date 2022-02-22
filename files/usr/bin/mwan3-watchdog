@@ -48,7 +48,7 @@ do
             else
             NowTimeget
             echo "$NowTime---now,vwan is recover---Log Size $Size/$Max" >> /var/mwan3-watchdog.log 
-            /etc/init.d/shadowsocksr restart
+            /etc/init.d/passwall restart
             sleep 20
             break
             fi
