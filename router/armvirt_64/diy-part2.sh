@@ -55,8 +55,8 @@ cp -f package/lean/luci-argon/htdocs/luci-static/argon/img/bg1.jpg feeds/luci/th
 rm -rf package/lean/luci-argon
 
 # Add haproxy2.4.2
-# rm -f package/feeds/packages/haproxy
-# svn co https://github.com/cocokfeng/haproxy/trunk package/feeds/packages/haproxy
+rm -f package/feeds/packages/haproxy
+svn co https://github.com/cocokfeng/haproxy/trunk package/feeds/packages/haproxy
 
 # luci-theme-infinityfreedom
 # svn co https://github.com/cocokfeng/luci-theme-infinityfreedom/trunk package/luci-theme-infinityfreedom
